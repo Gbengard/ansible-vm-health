@@ -4,8 +4,6 @@ This Ansible project monitors the health of AWS EC2 instances (VMs) by collectin
 
 The project targets running EC2 instances tagged with `Environment=dev`, dynamically discovers them using the AWS EC2 inventory plugin, gathers metrics, and sends a consolidated report via Gmail SMTP.
 
-## Repository
-[https://github.com/jaiswaladi246/Ansible-VM-Monitor.git](https://github.com/jaiswaladi246/Ansible-VM-Monitor.git)
 
 ## Prerequisites
 
