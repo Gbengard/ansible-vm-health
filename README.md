@@ -1,6 +1,6 @@
 # Ansible VM Health Monitoring Project
 
-![Ansible VM Health](Ansible-VM-Health.png)
+![Ansible VM Health](images/Ansible-VM-Health.png)
 
 This Ansible project monitors the health of AWS EC2 instances (VMs) by collecting CPU, memory, and disk usage metrics. It then generates a visually appealing, animated HTML report and emails it to a specified recipient.
 
@@ -247,7 +247,7 @@ The playbook will:
 2. Generate a styled HTML report with progress bars and health badges.
 3. Email the report to the configured recipient.
 
-![VM Reports](VM-Reports.png)
+![VM Reports](images/VM-Reports.png)
 
 
 Schedule this playbook with cron for periodic monitoring:
